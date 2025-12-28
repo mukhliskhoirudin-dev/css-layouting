@@ -1,0 +1,19 @@
+img {
+  width: 200px;
+  right: 200px;
+}
+
+a {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  display: inline-block;
+}
+
+.main {
+  width: 600px;
+  background-color: greenyellow;
+}
+.main h2 {
+  background-color: brown;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  background-image: url(img/bg.png);
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -90px;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid salmon;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 5px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
+.paragraf {
+  text-indent: 5%;
+  text-align: justify;
+}
